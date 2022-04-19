@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.wu.view.AutoLinkTextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:useLongClick="true"
+        android:text="https://www.baidu.com 我的测试数据"
+        tools:ignore="MissingConstraints" />
+
+    <com.wu.view.AutoLinkTextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:useLongClick="true"
+        android:text="296606241@qq.com 我的测试数据"
+        tools:ignore="MissingConstraints" />
+
+    <com.wu.view.AutoLinkTextView
+        android:id="@+id/tv_1"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:useLongClick="true"
+        android:text="18538537389我的测试数据"
+        tools:ignore="MissingConstraints" />
+    <com.wu.view.ExpandableTextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        app:maxCollapsedLength="80"
+        app:new_collapseHint="收起"
+        app:new_expandHint="全文"
+        app:new_hintColor="@color/color_text_high_color"
+        android:layout_height="wrap_content"
+        android:text="18538537389 区分Activity的加载模式，通过示例一目了然。这里编写了一个Activity A（ActA）和Activity B（ActB）循环跳转的例子。对加载模式修改和代码做稍微改动，就可以说明四种模式的区别"
+        tools:ignore="MissingConstraints" />
+
+
+
+    <com.wu.view.ColorTextView
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/tv_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="123456我的测试???1234"
+        app:color_high_light_text_color="@color/teal_200"
+        app:color_text_color="@color/black"/>
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="请输入"
+        android:id="@+id/et"/>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/bt"
+        android:text="改变文字"/>
+
+</LinearLayout>
+</layout>

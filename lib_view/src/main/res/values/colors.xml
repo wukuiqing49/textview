@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_auto_link_default">#303F9F</color>
+    <color name="color_auto_high_default">#99777777</color>
+    <color name="color_text_color">#000000</color>
+    <color name="color_text_high_color">#F44336</color>
+</resources>
